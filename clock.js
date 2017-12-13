@@ -13,11 +13,11 @@ function startTime() {
     document.getElementById('jsClock').innerHTML =
      hour + ":" + min + "<br>" + dayName + " " + monthName + " " + date;
     document.getElementById('jsClock').style.width = "100%";
-    document.getElementById('jsClock').style.height = "13%";
+    document.getElementById('jsClock').style.height = "15%";
     document.getElementById('jsClock').style.border = "none";
     document.getElementById('jsClock').style.fontFamily = "DejaVu,sans-serif";
     document.getElementById('jsClock').style.textAlign = "center";
-    document.getElementById('jsClock').style.fontSize = "60px";
+    document.getElementById('jsClock').style.fontSize = "4em";
     document.getElementById('jsClock').style.color = "#526a7a";
     document.getElementById('jsClock').style.margin = "auto";
     var t = setTimeout(startTime, 500);
