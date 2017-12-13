@@ -4,13 +4,14 @@ function startTime() {
     var min = today.getMinutes();
     var month = today.getMonth();
     var day = today.getDay();
+    var date = today.getDate();
     var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
     var weekDays = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     var dayName = weekDays[day];
     var monthName = months[month];
     min = checkTime(min);
     document.getElementById('jsClock').innerHTML =
-     hour + ":" + min + "<br>" + dayName + " " + monthName + " " + day;
+     hour + ":" + min + "<br>" + dayName + " " + monthName + " " + date;
     document.getElementById('jsClock').style.width = "100%";
     document.getElementById('jsClock').style.height = "13%";
     document.getElementById('jsClock').style.border = "none";
