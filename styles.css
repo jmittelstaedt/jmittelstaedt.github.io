@@ -11,7 +11,7 @@ body {
 }
 .vertAlign {
 	position: relative;
-	top: 55%;
+	top: 40%;
 	transform: translateY(-50%);
 	width: 75%;
 	margin: auto;
@@ -82,6 +82,9 @@ ul {
 }
 li:hover {
 	background-color: #526a7a;
+}
+li {
+	font-size: 1.05em;
 }
 
 @media only screen and (max-width: 871px) {

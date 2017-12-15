@@ -15,11 +15,12 @@ function startTime() {
     document.getElementById('jsClock').style.width = "100%";
     document.getElementById('jsClock').style.height = "15%";
     document.getElementById('jsClock').style.border = "none";
-    document.getElementById('jsClock').style.fontFamily = "DejaVu,sans-serif";
+    document.getElementById('jsClock').style.fontFamily = "sans-serif";
     document.getElementById('jsClock').style.textAlign = "center";
     document.getElementById('jsClock').style.fontSize = "4em";
     document.getElementById('jsClock').style.color = "#526a7a";
     document.getElementById('jsClock').style.margin = "auto";
+    document.getElementById('jsClock').style.fontWeight = "bold"
     var t = setTimeout(startTime, 500);
 }
 function checkTime(i) {
