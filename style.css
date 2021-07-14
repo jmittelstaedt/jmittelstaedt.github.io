@@ -1,0 +1,108 @@
+body {
+  background-image: url("bgs/low_contrast_linen_2x.png");
+  font-family: 'Oswald', sans-serif;
+  color: rgb(224, 224, 224);
+  margin-top: 50;
+}
+
+a {
+  color: rgb(224, 224, 224);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 15vw;
+  height: 36vh;
+  margin-left: 5vw;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 10px;
+  /* background-color: black; */
+} 
+
+.nav-link {
+  font-size: 20pt;
+  border: 10px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white;
+  padding: 0 10;
+  text-align: center;
+}
+
+main {
+  max-width: 1000px;
+  margin-left: 5vw;
+  margin-right: 25vw;
+  width: 50vw;
+}
+
+header {
+  margin: auto;
+  margin-top: 5%;
+  /* height: 25vh; */
+  width: 765px;
+  margin-bottom: 5vh;
+}
+
+.intro {
+  font-size: larger;
+  margin-bottom: 20vh;
+}
+
+.contact {
+  font-size: 28px;
+}
+
+#github-link {
+  text-decoration: underline;
+}
+
+#heading-title {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+#headshot {
+  max-height: 220px;
+}
+
+#headshot-container {
+  float: left;
+  margin: 10px;
+  margin-left: 40px;
+  margin-right: 30px;
+  border-width: 5px;
+  border-color: white;
+  border-style: solid;
+}
+
+section {
+  padding-top: 40px;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 50pt;
+  margin-top: 2vh;
+}
+
+.main-text {
+  font-size: 14pt;
+}

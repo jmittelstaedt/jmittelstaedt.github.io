@@ -1,67 +1,92 @@
+<HTML>
 
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Start</title>
-		<link rel="icon" type="image/png" sizes="32x32" href="/first_icon.png">
-		<link rel="stylesheet" type="text/css" href="styles.css">
-		<script type="text/javascript" src="clock.js"></script>
-	</head>
-	<body onload="startTime()">
-		<div class="pageContainer">
-			<div class="vertAlign">
-        <div class="clock">
-					<div id = "jsClock"></div>
-        </div>
-				<div class="boxContainer">
-					<div class="box">
-						<div class="boxHeader" id="boxHeader1"></div>
-						<ul>
-							<a href="https://mail.google.com"><li>Inbox</li></a>
-							<a href="https://calendar.google.com"><li>Calendar</li></a>
-              				<a href="https://keep.google.com/"><li>Google Keep</li></a>
-							<a href="https://github.com/"><li>GitHub</li></a>
-						</ul>
-					</div>
-					<div class="box">
-						<div class="boxHeader" id="boxHeader2"></div>
-							<ul>
-								<a href="https://twitter.com"><li>Twitter</li></a>
-								<a href="https://www.theatlantic.com/"><li>Atlantic</li></a>
-								<a href="https://www.nytimes.com/"><li>NYT</li></a>
-							</ul>
-					</div>
-					<div class="box">
-						<div class="boxHeader" id="boxHeader3"></div>
-							<ul>
-								<a href="https://www.youtube.com/"><li>YouTube</li></a>
-								<a href="https://www.netflix.com/"><li>Netflix</li></a>
-								<a href="https://www.twitch.tv/"><li>Twitch</li></a>
-								<a href="https://www.hulu.com/"><li>Hulu</li></a>
-								<a href="https://play.hbomax.com/"><li>HBO</li></a>
-								<a href="https://www.amazon.com/gp/video/storefront"><li>AP</li></a>
-							</ul>
-					</div>
-          <div class="box">
-						<div class="boxHeader" id="boxHeader4"></div>
-							<ul>
-								<a href="http://www.smbc-comics.com"><li>SMBC</li></a>
-								<a href="http://xkcd.com"><li>XKCD</li></a>
-								<a href="https://www.reddit.com/r/woodworking"><li>/r/ Woodworking</li></a>
-								<a href="https://www.reddit.com/r/popular/"><li>/r/ Popular</li></a>
-							</ul>
-					</div>
-				</div>
+<HEAD>
+  <TITLE>Joseph Mittelstaedt</TITLE>
+  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+  <LINK rel="stylesheet" type="text/css" href="style.css">
+</HEAD>
 
-				<div class="search">
-					<form class="searchForm" method="GET" action="https://google.com/search?q=">
-						<input class="searchInput" type="text" name="q" placeholder="Search...">
-					</form>
-				</div>
-        <!--<div class="calendar">
-          <iframe id="googleCal" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=art.mitt%40gmail.com&amp;color=%2329527A&amp;src=edtt5re6d1qv1ubum9vegas6n4%40group.calendar.google.com&amp;color=%23125A12&amp;src=6i5av7q64u8vb3cbqpe4n17d9g%40group.calendar.google.com&amp;color=%23711616&amp;src=960hhqk1cdq5dbmv9k2i0faq9g%40group.calendar.google.com&amp;color=%2328754E&amp;src=fmd4nki2o13p1h88nffmtcu224%40group.calendar.google.com&amp;color=%23875509&amp;src=j8tgcoeukrbj47j8ctp78mnhbc%40group.calendar.google.com&amp;color=%23B1365F&amp;ctz=America%2FNew_York"></iframe>
-        </div>-->
-			</div>
-		</div>
-	</body>
-</html>
+<BODY>
+  <a name="top"></a>
+  <div class="wrapper">
+    <div class="sidebar">
+      <nav>
+        <a href="#top"><div class="nav-link">Home</div></a>
+        <a href="#research"><div class="nav-link">Research</div></a>
+        <a href="#publications"><div class="nav-link">Publications</div></a>
+        <a href="#code"><div class="nav-link">Code</div></a>
+      </nav>
+    </div>
+    <main>
+      <header>
+        <div id="headshot-container"><img id="headshot" src="headshot.jpg"></div>
+        <h1 id='heading-title'>Joseph Mittelstaedt</h1>
+        <span class='contact'>Email: <a href="mailto:jam943@cornell.edu">jam943@cornell.edu</a></span><br>
+        <span class='contact'>Office: Clark Hall, Room G3</span><br>
+        <span class="contact"><a href="Mittelstaedt_General_CV_2020-03-25.pdf">CV</a></span>
+      </header>
+      <div class="intro">
+        <p>
+          Physics Ph.D student at Cornell University - Spintronics researcher in 
+          Dan Ralph's group
+        </p>
+      </div>
+      <section>
+        <a name='research'></a>
+        <h1>Research</h1>
+        <p class="main-text">
+          I'm currently a third year physics Ph.D student doing experimental condensed matter
+          physics research in Dan Ralph's group at Cornell.
+          My subfield is spintronics, which has the aim of better utilizing electron spin in 
+          various forms for computation and data storage.
+          To do this effectively, we need to be able to create currents of <i>spin</i>, that is 
+          a flow of electrons with a coherent spin direction.
+          This is still an active area of research, and my work generally involves looking at
+          new materials which may be able to generate spin currents efficiently and seeing how good
+          they actually are at doing that.
+        </p>
+        <p class="main-text">
+          For any experts, in particular I am working on measuring spin currents produced by 
+          ferromagnets in the hope that the broken symmetry offered by the magnetization 
+          can be useful in generating spin currents with more flexible polarization.
+        </p>
+        <p class="main-text">
+          I'm also involved in generally making our techniques for measuring charge-spin conversion
+          more accuarate, as well as at least somewhat involved in our group's efforts to investigate
+          2D van der Waals magnetic materials.
+        </p>
+      </section>
+      <section>
+        <a name='publications'></a>
+        <h1>Publications & Presentations</h1>
+        <h2>Publications</h2>
+        <p>
+          Several are on the way!
+        </p>
+        <h2>Presentations</h2>
+        <p class="main-text">
+          Magnetization-Independent Spin Hall Effect in Ferromagnets - Presentation given 
+          at the 2020 March Meeting of the American Physical Society. March 6, 2020
+        </p>
+        <p class="main-text">
+          STELLTRANS: A Transport Analysis Suite for Stellarators - Poster presented at the 58th 
+          annual meeting of the American Physical Society Division of Plasma Physics. November 1, 2016
+        </p>
+      </section>
+      <section>
+        <a name='code'></a>
+        <h1>Code</h1>
+        <p class="main-text">
+         I love playing around with Python and have been using it as well as the general scientific
+         and numerical python ecosystem for several years in the course of research.
+         Over this time, I've begun to make and contribute to some code which may actually be 
+         of use to people. If you're interested, I'd suggest that you check out my
+         <a href="https://github.com/jmittelstaedt" id="github-link" target="blank">github profile</a> which has a decent 
+         selection of the notable things I've done. Also, for what it's worth, I wrote all the HTML and CSS for this webpage myself!
+        </p>
+      </section>
+    </main>
+  </div>
+</BODY>
+
+</HTML>
