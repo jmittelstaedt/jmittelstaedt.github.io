@@ -77,10 +77,11 @@ header {
 #heading-title {
   font-size: 48px;
   font-weight: bold;
+  margin-bottom: 0px;
 }
 
 #headshot {
-  max-height: 220px;
+  max-height: 260px;
 }
 
 #headshot-container {
